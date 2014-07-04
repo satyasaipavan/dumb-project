@@ -12,6 +12,6 @@ int main() {
 	assert(x == 5);
 	say_hello();
 	printf("%d\n", x);
-	assert(diff(3, 2) == 1);
+	assert(sub(3, 2) == 1);
 	return 0;
 }
