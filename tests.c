@@ -13,5 +13,6 @@ int main() {
 	say_hello();
 	printf("%d\n", x);
 	assert(sub(3, 2) == 1);
+	assert(f() == 42);
 	return 0;
 }
